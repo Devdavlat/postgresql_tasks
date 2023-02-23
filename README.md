@@ -211,10 +211,11 @@ from employees;
 ## Question
 ### Employess jadvaldan title_of_courtest ‘Mr’ bo’lgan xodimlarni firts_name alifbo tartibida
 ### qaytaring.
+
 #### Query
 ```
 select * from employees
-where title_of_courtesy = 'Mr';
+where title_of_courtesy = 'Mr.';
 ```
 ## Result
 ![Screenshot from 2023-02-22 22-25-28](https://user-images.githubusercontent.com/109902921/220850874-3353907b-03d9-4fd8-a139-59f56767c7f7.png)
