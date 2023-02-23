@@ -40,7 +40,7 @@ qaytaring.
 #### Query
 ```
 select * from categories
-where category_name = 'Confections;''
+where category_name = 'Confections';
 ```
 ## Result
 ![Screenshot from 2023-02-22 21-41-30](https://user-images.githubusercontent.com/109902921/220850798-499eb79d-6841-4473-8d43-4181b1d7027b.png)
@@ -112,7 +112,7 @@ where contact_title = 'Owner';
 ### Customers jadvalidan city ‘London’ bo’lgan ma’lumotlarni qaytaring.
 #### Query
 ```
-select * from cutomers
+select * from customers
 where city = 'London'; 
 ```
 ## Result
@@ -149,7 +149,7 @@ where country = 'Germany';
 ## Result
 ![Screenshot from 2023-02-22 22-08-57](https://user-images.githubusercontent.com/109902921/220850851-ddc18153-3c96-48f2-bb27-688aedcdb749.png)
 ## Task 15
-## Question
+## Question 
 ### Categories jadval barcha ustun ma’lumotlarini bilan qaytaring.
 #### Query
 ```
@@ -214,7 +214,7 @@ from employees;
 #### Query
 ```
 select * from employees
-where title_of_courtesy = 'Mr';
+where title_of_courtesy = 'Mr.';
 ```
 ## Result
 ![Screenshot from 2023-02-22 22-25-28](https://user-images.githubusercontent.com/109902921/220850874-3353907b-03d9-4fd8-a139-59f56767c7f7.png)
