@@ -238,7 +238,7 @@ select * from employees
 where hire_date between '1994-01-01' and '1994-12-31';
 ```
 ## Result
-![Screenshot from 2023-02-23 17-11-42.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-02-23%2017-11-42.png)
+![Screenshot from 2023-02-23 17-11-42](https://user-images.githubusercontent.com/109902921/220902310-3033cad5-bc59-4d53-889f-025a9df99b4d.png).gitignore
 
 ## Task 22
 ## Question
@@ -246,21 +246,23 @@ where hire_date between '1994-01-01' and '1994-12-31';
 ### home_phone ma’lumotlarini first_name Z-A alifbo tartibida qaytaring.
 #### Query
 ```
-select firts_name , last_name , title,city, home_phone from employees
+select first_name , last_name , title,city, home_phone from employees
 order by first_name desc;
 ```
 ## Result
-![Screenshot from 2023-02-22 22-35-29](https://user-images.githubusercontent.com/109902921/220850888-e96d2594-9105-4226-ad19-e853b7164322.png)
+
+![Screenshot from 2023-02-23 17-16-02](https://user-images.githubusercontent.com/109902921/220903165-41b84c9a-d262-4e55-b8b6-1a4e19926700.png)
+
 ## Task 23
 ## Question
 ### Orders jadvaldan customer_id ‘VINET’ bo’lgan buyurtmalarni qaytaring.
 #### Query
 ```
-select * from orsers
+select * from orders
 where customer_id = 'VINET';
 ```
 ## Result
-![Screenshot from 2023-02-22 22-48-18](https://user-images.githubusercontent.com/109902921/220850893-213a4010-1e86-41ea-b512-f6ce8b4d9155.png)
+![Screenshot from 2023-02-23 17-18-01](https://user-images.githubusercontent.com/109902921/220903686-f8ab7acc-247a-45ed-8b4b-1447cc1828cc.png)
 ## Task 24
 ## Question
 ### Orders jadvaldan order_date ustuni orqali 1996-yildagi ma’lumotlarni qaytaring.
@@ -289,8 +291,11 @@ where ship_region is not null;
 select * from orders 
 where order_id between 10300 and 10400;
 ```
-## Result!
-![Screenshot from 2023-02-23 11-48-45.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-02-23%2011-48-45.png)
+## Result
+![Screenshot from 2023-02-23 17-19-26](https://user-images.githubusercontent.com/109902921/220904030-d4c0eb7c-2d19-4256-8ae8-4a5c09f4483e.png)
+
+
+
 ## Task 27
 ## Question
 ### Order Details jadvaldan unit_price ustun umumiy qiymatini qaytaring..
