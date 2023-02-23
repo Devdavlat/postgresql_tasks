@@ -224,11 +224,13 @@ where title_of_courtesy = 'Mr.';
 ### Employes jadvalda title ‘Sales Representative’ bo’lgan xodimlar sonini qaytaring.
 #### Query
 ```
-select * from employees
+select count(*) from employees
 where title = 'Sales Representative';
 ```
 ## Result
-![Screenshot from 2023-02-22 22-27-20](https://user-images.githubusercontent.com/109902921/220850879-3bd46da6-0d77-4260-87e1-dd1c8ea2850d.png)
+
+![Screenshot from 2023-02-23 17-39-06](https://user-images.githubusercontent.com/109902921/220908575-bbd8f1f6-78c4-430b-b133-e4536e8f6a55.png)
+
 ## Task 21
 ## Question
 ### Employes jadvalda hire_date 1994-yilda bo’lgan ma’lumotlarni qaytaring..
