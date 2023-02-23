@@ -238,7 +238,8 @@ select * from employees
 where hire_date between '1994-01-01' and '1994-12-31';
 ```
 ## Result
-![Screenshot from 2023-02-22 22-31-13](https://user-images.githubusercontent.com/109902921/220850884-73c661a4-b11c-4c23-ae1b-51de468d7b33.png)
+![Screenshot from 2023-02-23 17-11-42.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-02-23%2017-11-42.png)
+
 ## Task 22
 ## Question
 ### Employes jadvaldan region NULL bo’lmagan xodimlarni first_name, last_name, title, city,
