@@ -48,6 +48,7 @@ where category_name = 'Confections';
 ## Question
 ### Categories jadvaldan kategoriya nomi ‘Produce’ yoki ‘Seafood’ bo’lgan ma’lumotlarni
 ### qaytaring.
+![Screenshot from 2023-02-24 15-40-23](https://user-images.githubusercontent.com/109902921/221158836-684f8727-eb6c-4483-829a-cd26c4be069f.png)
 #### Query
 ```
 select * from categories
@@ -58,7 +59,7 @@ where category_name = 'Produce' or category_name = 'Seafood';
 ## Task 6
 ## Question
 ### Categories jadvaldan quyida belgilangan ma’lumotlarni qaytaring.
-![Screenshot from 2023-02-23 15-19-19.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%20from%202023-02-23%2015-19-19.png)
+
 ### Query
 ```
 select * from categories
